@@ -9,3 +9,6 @@
 10.times do
     Coupon.create(coupon_code: Faker::Restaurant.type, store: Faker::Restaurant.name )
 end
+
+Coupon.create(coupon_code: "ASD123", store: "Chipotle")
+Coupon.create(coupon_code: "XYZ098", store: "Jamba")
